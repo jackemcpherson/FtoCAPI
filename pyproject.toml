@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ftocapi"
+version = "0.1.0"
+description = "A simple API that converts Celsius to Farenheit and vice versa."
+authors = ["Jack McPherson <jackemcpherson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.101.1"
+uvicorn = "^0.23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
