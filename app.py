@@ -17,8 +17,8 @@ class UnitsEnum(str, Enum):
         The Fahrenheit temperature unit.
     """
 
-    celsius = "celsius"
-    fahrenheit = "fahrenheit"
+    celsius = "c"
+    fahrenheit = "f"
 
 
 class ConvertRequest(BaseModel):
